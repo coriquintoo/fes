@@ -1,181 +1,138 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Fundación de Estudios Sanitaristas (FES): desarrollo, innovación y conocimiento para una sociedad más justa."
-    />
-    <title>Fundación de Estudios Sanitaristas (FES)</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header" id="inicio">
-      <div class="container nav-wrapper">
-        <a href="#inicio" class="logo" aria-label="Ir al inicio">FES</a>
-        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-nav">
-          ☰
-        </button>
-        <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
-          <a href="#quienes-somos">Quiénes somos</a>
-          <a href="#mision">Misión</a>
-          <a href="#educacion">Educación</a>
-          <a href="#visibilidad">Visibilidad</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FES - Fundación de Estudios Sanitaristas</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+    
+    <div class="logo">
+      <img src="logo-fes.png.png" alt="FES Logo">
+      <span>FES</span>
+    </div>
+
+    <nav>
+      <a href="#quienes">Quiénes somos</a>
+      <a href="#mision">Misión</a>
+      <a href="#educacion">Educación</a>
+      <a href="#visibilidad">Visibilidad</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Fundación de Estudios Sanitaristas y Ambientales</h1>
+    <p>Desarrollo, innovación y conocimiento para abordar las problemáticas socioambientales.</p>
+    <a href="#quienes" class="btn">Conocé más</a>
+  </div>
+</section>
+
+<!-- QUIENES SOMOS -->
+<section id="quienes" class="section">
+  <div class="container">
+    <h2>Quiénes somos</h2>
+    <p>
+      Somos una fundación enfocada en las problemáticas socioambientales desde una perspectiva social, abordando la desigualdad, la salud y el acceso a los recursos.
+    </p>
+  </div>
+</section>
+
+<!-- MISION -->
+<section id="mision" class="section alt">
+  <div class="container">
+    <h2>Misión y objetivos</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Investigación y Ciencia</h3>
+        <p>Desarrollo de políticas públicas y proyectos ambientales.</p>
       </div>
-    </header>
 
-    <main>
-      <section class="hero section">
-        <div class="container hero-content">
-          <p class="eyebrow">Fundación de Estudios Sanitaristas</p>
-          <h1>Fundación de Estudios Sanitaristas</h1>
-          <p class="hero-subtitle">
-            Desarrollo, innovación y conocimiento para una sociedad más justa.
-          </p>
-          <a href="#quienes-somos" class="btn btn-primary">Conocé más</a>
-        </div>
-      </section>
-
-      <section class="section" id="quienes-somos">
-        <div class="container grid two-columns">
-          <div>
-            <h2>Quiénes somos</h2>
-            <p>
-              Somos una fundación argentina enfocada en las problemáticas socioambientales,
-              con una mirada integral sobre el desarrollo humano y el bienestar colectivo.
-            </p>
-            <p>
-              Trabajamos sobre desafíos clave como la desigualdad, la salud y el acceso justo a
-              los recursos, impulsando propuestas concretas para fortalecer comunidades y
-              oportunidades.
-            </p>
-          </div>
-          <article class="card highlight-card" aria-label="Resumen institucional">
-            <h3>Compromiso con el territorio</h3>
-            <p>
-              Articulamos investigación, formación y divulgación para generar impacto social
-              positivo desde una perspectiva ética, científica y participativa.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section-muted" id="mision">
-        <div class="container">
-          <h2>Misión y objetivos</h2>
-          <div class="grid cards-grid">
-            <article class="card">
-              <h3>Investigación y Ciencia</h3>
-              <p>Promovemos estudios aplicados para comprender y transformar realidades socioambientales.</p>
-            </article>
-            <article class="card">
-              <h3>Educación y Formación</h3>
-              <p>Desarrollamos trayectos de capacitación accesibles para fortalecer capacidades profesionales.</p>
-            </article>
-            <article class="card">
-              <h3>Cultura y Ambiente</h3>
-              <p>Impulsamos iniciativas culturales con enfoque ambiental y responsabilidad comunitaria.</p>
-            </article>
-            <article class="card">
-              <h3>Divulgación de contenidos</h3>
-              <p>Acercamos información clara y confiable para fomentar participación ciudadana informada.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="educacion">
-        <div class="container grid two-columns">
-          <div>
-            <h2>Educación y formación</h2>
-            <p>
-              Ofrecemos formación gratuita con certificación oficial, orientada a la inserción y al
-              desarrollo laboral.
-            </p>
-            <p>
-              Nuestra modalidad combinada —presencial + online— facilita el acceso y acompaña las
-              distintas realidades de las y los estudiantes.
-            </p>
-          </div>
-          <article class="card">
-            <h3>Instituciones</h3>
-            <ul class="institution-list">
-              <li>ISFT N°213</li>
-              <li>ISFT N°246</li>
-              <li>CENS N°453</li>
-              <li>CFL N°404</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section-muted" id="trayectos-universitarios">
-        <div class="container">
-          <h2>Trayectos universitarios</h2>
-          <p>
-            A través de convenios con universidades, promovemos la continuidad académica y el
-            crecimiento profesional de nuestra comunidad educativa.
-          </p>
-          <p>
-            Entre estas articulaciones se destaca la Universidad Nacional de José C. Paz, que amplía
-            oportunidades de formación superior para estudiantes y egresados.
-          </p>
-        </div>
-      </section>
-
-      <section class="section" id="visibilidad">
-        <div class="container">
-          <h2>Proyectos de visibilidad</h2>
-          <div class="grid cards-grid two-cards">
-            <article class="card">
-              <h3>El agua en el siglo XXI</h3>
-              <p>Programa de TV dedicado a la divulgación sobre recursos hídricos y desarrollo sostenible.</p>
-              <p>Con más de 15 años al aire, ha recibido premios y reconocimiento por su aporte social.</p>
-            </article>
-            <article class="card">
-              <h3>Radio ECOS FM 102.1</h3>
-              <p>Espacio radial con contenidos ambientales y sociales de interés público.</p>
-              <p>Además, produce podcasts y campañas de sensibilización para distintos públicos.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-contact" id="contacto">
-        <div class="container">
-          <h2>Contacto</h2>
-          <div class="grid contact-grid">
-            <article class="card">
-              <h3>Escribinos</h3>
-              <p><strong>Email:</strong> <a href="mailto:fes.sanitarista@gmail.com">fes.sanitarista@gmail.com</a></p>
-              <p><strong>Dirección:</strong> Calle 48 N° 319, La Plata</p>
-              <a class="btn btn-primary" href="mailto:fes.sanitarista@gmail.com">Enviar email</a>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-content">
-        <div class="social-placeholders" aria-label="Redes sociales">
-          <a href="#" aria-label="Facebook">Facebook</a>
-          <a href="#" aria-label="Instagram">Instagram</a>
-          <a href="#" aria-label="YouTube">YouTube</a>
-        </div>
-        <p>© <span id="current-year"></span> Fundación de Estudios Sanitaristas. Todos los derechos reservados.</p>
+      <div class="card">
+        <h3>Educación</h3>
+        <p>Formación técnica y profesional para trabajadores.</p>
       </div>
-    </footer>
 
-    <script src="script.js"></script>
-  </body>
+      <div class="card">
+        <h3>Cultura</h3>
+        <p>Difusión y acceso al conocimiento ambiental.</p>
+      </div>
+
+      <div class="card">
+        <h3>Divulgación</h3>
+        <p>Contenido científico accesible para la sociedad.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCACION -->
+<section id="educacion" class="section">
+  <div class="container">
+    <h2>Educación</h2>
+    <p>Formación gratuita con certificación oficial y modalidad combinada.</p>
+
+    <ul class="list">
+      <li>ISFT N°213</li>
+      <li>ISFT N°246</li>
+      <li>CENS N°453</li>
+      <li>CFL N°404</li>
+    </ul>
+  </div>
+</section>
+
+<!-- VISIBILIDAD -->
+<section id="visibilidad" class="section alt">
+  <div class="container">
+    <h2>Visibilidad</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>El agua en el siglo XXI</h3>
+        <p>Programa de divulgación con más de 15 años al aire.</p>
+      </div>
+
+      <div class="card">
+        <h3>Radio ECOS</h3>
+        <p>FM 102.1 con contenidos ambientales y sociales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="section">
+  <div class="container">
+    <h2>Contacto</h2>
+
+    <p>Email: fes.sanitarista@gmail.com</p>
+    <p>Dirección: Calle 48 N° 319, La Plata</p>
+
+    <a href="mailto:fes.sanitarista@gmail.com" class="btn">Enviar mail</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 FES - Fundación de Estudios Sanitaristas</p>
+</footer>
+
+</body>
 </html>
