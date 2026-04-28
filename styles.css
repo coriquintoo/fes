@@ -58,7 +58,12 @@ h1, h2, h3 {
 }
 
 .logo img {
-  height: 50px;
+  height: 80px;
+}
+
+.logo span {
+  font-size: 26px;
+  font-weight: 700;
 }
 
 nav a {
